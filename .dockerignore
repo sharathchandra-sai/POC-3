@@ -1,3 +1,32 @@
-target/
+# Exclude build directories except the final JAR
+target/test-classes/
+target/generated-sources/
+target/surefire-reports/
+
+# Exclude IDE and system files
+*.iml
+.idea/
+.vscode/
+*.log
+
+# Exclude Git metadata
 .git/
+
+# Exclude documentation and markdown files
+README.md
+# Exclude build directories except the final JAR
+target/test-classes/
+target/generated-sources/
+target/surefire-reports/
+
+# Exclude IDE and system files
+*.iml
+.idea/
+.vscode/
+*.log
+
+# Exclude Git metadata
+.git/
+
+# Exclude documentation and markdown files
 README.md
