@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/sharathchandra-sai/POC-3.git'
+                git branch: 'main', url: 'https://github.com/sharathchandra-sai/POC-3.git'
             }
         }
         stage('Build') {
